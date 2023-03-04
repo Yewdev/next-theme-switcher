@@ -1,6 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import Card from "~/components/Card";
+import Footer from "~/components/Footer";
 import ThemeToggle from "~/components/ThemeSwitch";
 
 const Home: NextPage = () => {
@@ -14,6 +15,7 @@ const Home: NextPage = () => {
       <main className="flex min-h-screen flex-col items-center justify-center bg-neutral-100 dark:bg-neutral-900">
         <ThemeToggle />
         <Card />
+        <Footer />
       </main>
     </>
   );
